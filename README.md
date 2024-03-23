@@ -1,5 +1,5 @@
 # JPA-Hibernate_OneToMany_ManyToOneMapping
-This project is used to demonstrate the mapping of two tables using JPA/Hibernate with @OneToMany and @ManyToOne mapping annotation.
+This project is used to demonstrate the mapping of two tables using JPA/Hibernate with **@OneToMany** and **@ManyToOne** mapping annotation.
 
 For running this application, use **spring boot** version 3.2 and **JAVA** of version 17.
 Create tables instructor, instructor_detail, course and review. For their columns, create according to column defination in entity class respectively.
@@ -37,3 +37,11 @@ There are two type: Eager and Lazy.
 In **eager loading** strategy, if we load one table data, it will also load up all other data associated with it and will store it in a memory.
 <br>
 In **lazy loading** , if we load one table data, it will not load up other data associated with it into a memory until we make an explicit call to it.
+
+<br>
+
+<br>
+
+**Note:** If you get an error **"filename is too long"** while taking a pull or while committing your code by using command prompt, then use the below command before adding your files to git.
+<br>
+git config core.logpaths true
